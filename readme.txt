@@ -36,7 +36,8 @@ Major features in GOLD package include:
 * Custom CSS & JS
 
 Live previews & GOLD packages are available [here](http://portfoliopluginwp.com). 
-If you have a question, don't hesitate and contact us [here](support@portfoliopluginwp.com). 
+
+If you have a question, don't hesitate and contact us here 'support@portfoliopluginwp.com'. 
 
 == Installation ==
 
@@ -57,3 +58,6 @@ If you have a question, don't hesitate and contact us [here](support@portfoliopl
 8. Admin Portfolio Options
 
 == Changelog ==
+
+1. Brand new plugin pushed
+
