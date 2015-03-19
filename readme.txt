@@ -35,16 +35,15 @@ Major features in GOLD package include:
 * Design Customization
 * Custom CSS & JS
 
-Live previews & GOLD packages are available [here](http://portfoliopluginwp.com). 
+[Here](http://portfoliopluginwp.com) you can find a detailed information regarding premium features and plans. There are also some predefined live previews and showcases to help you choose the best one that meets your needs. 
 
-If you have a question, don't hesitate and contact us here 'support@portfoliopluginwp.com'. 
+If you have a question contact us at support@portfoliopluginwp.com. 
 
 == Installation ==
 
 1. Unzip portfolio-wp.zip
 2. Upload the portfolio-wp folder to your blog 
 3. Just Activate it
-4. You've successfully installed the plugin 
 
 == Screenshots ==
 
