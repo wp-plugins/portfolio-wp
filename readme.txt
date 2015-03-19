@@ -15,7 +15,7 @@ Super easy responsive Wordpress portfolio plugin which aims to embed your portfo
 Major features in FREE package include:
 
 * Responsive Design
-* Single Fluid Layouts
+* Single Fluid Layout
 * Full Screen Viewer
 * Intuitive Composer
 * Short-Code Support
