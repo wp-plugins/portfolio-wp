@@ -1,9 +1,8 @@
 === Portfolio ===
 Contributors: miixee
-Tags: portfolio, portfolio plugin, portfolio plugin wordpress, wordpress portfolio plugin, wordpress portfolio, wp portfolio, wp portfolio plugin, filterable portfolio, sortable portfolio, responsive portfolio, simple portfolio, picture portfolio, project portfolio, portfolio shortcode, fullscreen portfolio, jquery portfolio, free portfolio, premium portfolio, portfolios, portfolio widget, showcase, portfolio showcase, project showcase, portfolio grid, isotope, masonry, widget, project, projects, responsive, category, categories, filter, filterable, portfolio gallery, project gallery
+Tags: portfolio, portfolio plugin, portfolio plugin wordpress, wordpress portfolio plugin, wordpress portfolio, wp portfolio, wp portfolio plugin, filterable portfolio, sortable portfolio, responsive portfolio, simple portfolio, picture portfolio, project portfolio, portfolio shortcode, fullscreen portfolio, jquery portfolio, free portfolio, premium portfolio, portfolios, portfolio widget, showcase, portfolio showcase, project showcase, portfolio grid, isotope, masonry, widget, project, projects, responsive, category, categories, filter, filterable, portfolio gallery,
 Requires at least: 4.0
 Tested up to: 4.1
-Stable tag: 1.0
 License: GPLv2 or later
 
 Super easy responsive Wordpress portfolio plugin which aims to embed your portfolio items or projects on your site.
@@ -14,7 +13,7 @@ Super easy responsive Wordpress portfolio plugin which aims to embed your portfo
 
 Career Portfolio is an amazing and powerful WordPress portfolio plugin designed to help you display your works in an elegant style. It provides the all necessary features you'll need to showcase your portfolio.
 
-https://www.youtube.com/watch?v=t2IkF4dNypA&feature=youtu.be
+https://www.youtube.com/watch?v=t2IkF4dNypA
 
 = Major features in Free package include: =
 
