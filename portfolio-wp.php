@@ -7,7 +7,7 @@
 * Author: Miixee
 * Author URI: http://portfoliopluginwp.com
 * License: GPLv2 or later
-* Version: 1.0.0
+* Version: 1.0.1
 */
 
 
@@ -88,11 +88,15 @@ function crp_mce_buttons_filter($buttons){
 
 //Shortcode Hanlders
 function crp_shortcode_handler($attributes){
+	ob_start();
 
     //Prepare render data
     global $crp_portfolio;
     $crp_portfolio = CRPHelper::getPortfolioWithId($attributes['id']);
     require_once(CRP_FRONT_VIEWS_DIR_PATH."/crp-front.php");
+
+    $result = ob_get_clean();
+    return $result;
 }
 
 //Internal functionality
