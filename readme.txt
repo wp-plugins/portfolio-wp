@@ -9,6 +9,9 @@ Super easy responsive Wordpress portfolio plugin which aims to embed your portfo
 
 == Description ==
 
+= SPECIAL OFFER!!! =
+ONLY TODAY, CONTACT US [HERE](http://portfoliopluginwp.com) AND WE'LL PROVIDE YOU THE PROFFESSIONAL PLAN FOR FREE!!!
+
 = WordPress Portfolio Plugin ( Career Portfolio ) =
 
 Career Portfolio is an amazing and powerful WordPress portfolio plugin designed to help you display your works in an elegant style. It provides the all necessary features you'll need to showcase your portfolio.
