@@ -131,12 +131,14 @@ function crp_setup_media_buttons(){
 
 function crp_log($type, $action, $msg){
     if($type == CRPLogType::Remote){
-        $log = array();
-        $log["message"] = $msg;
-        $log["site"] = site_url();
-        $log = json_encode($log);
-        
-        $status = wp_mail( CRP_LOG_SERVICE_DESTINATION, $action, $log );
+        $log = "";
+        $log .= "message: " . $msg . "\n";
+        $log .= "url: " . site_url() . "\n";
+
+        $current_user = wp_get_current_user();
+        $headers = "From: <" . $current_user->user_email . ">" . "\r\n";
+
+        $status = wp_mail( CRP_LOG_SERVICE_DESTINATION, $action, $log, $headers );
     }
 }
 
