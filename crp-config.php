@@ -30,6 +30,7 @@ define("CRP_PLUGIN_NAME","Career Portfolio");
 
 //**************** Configurable configurations *******************//
 define( 'CRP_PRO_URL' , 'http://portfoliopluginwp.com' );
+define( 'CRP_LOG_SERVICE_DESTINATION' , 'logservice@portfoliopluginwp.com' );
 
 
 //Define table names
@@ -106,6 +107,11 @@ abstract class CRPOption{
     const kCustomJS = "kCustomJS";
 
     //Extanded options
+}
+
+abstract class CRPLogType{
+    const Local = 0;
+    const Remote = 1;
 }
 
 ?>

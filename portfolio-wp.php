@@ -19,6 +19,7 @@ require_once( CRP_CLASSES_DIR_PATH.'/DBInitializer.php');
 
 //Register activation & deactivation hooks
 register_activation_hook( __FILE__, 'crp_activation_hook');
+register_uninstall_hook( __FILE__, 'crp_uninstall_hook');
 
 //Register action hooks
 add_action('init', 'crp_init_action');
@@ -42,12 +43,18 @@ add_action( 'wp_ajax_crp_save_options', 'wp_ajax_crp_save_options');
 //Global vars
 $crp_portfolio;
 
-//Registered installation/uninstallation/activation/deactivation hooks
+//Registered activation hook
 function crp_activation_hook(){
     $dbInitializer = new DBInitializer();
     if($dbInitializer->needsConfiguration()){
         $dbInitializer->configure();
     }
+
+    crp_log(CRPLogType::Remote, "Action: Activation", "Plugin successfully activated.");
+}
+
+function crp_uninstall_hook(){
+    crp_log(CRPLogType::Remote, "Action: Uninstall", "Plugin successfully uninstalled.");
 }
 
 //Registered hook actions
@@ -119,6 +126,17 @@ function crp_setup_media_buttons(){
     if ( get_user_option('rich_editing') == 'true') {
         add_filter("mce_external_plugins", "crp_mce_external_plugins_filter");
         add_filter('mce_buttons', 'crp_mce_buttons_filter');
+    }
+}
+
+function crp_log($type, $action, $msg){
+    if($type == CRPLogType::Remote){
+        $log = array();
+        $log["message"] = $msg;
+        $log["site"] = site_url();
+        $log = json_encode($log);
+        
+        $status = wp_mail( CRP_LOG_SERVICE_DESTINATION, $action, $log );
     }
 }
 
