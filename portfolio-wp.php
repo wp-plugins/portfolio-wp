@@ -50,11 +50,11 @@ function crp_activation_hook(){
         $dbInitializer->configure();
     }
 
-    crp_log(CRPLogType::Remote, "Action: Activation", "Plugin successfully activated.");
+    CRPHelper::log(CRPLogType::Remote, "Activate", "Plugin successfully activated.");
 }
 
 function crp_uninstall_hook(){
-    crp_log(CRPLogType::Remote, "Action: Uninstall", "Plugin successfully uninstalled.");
+    CRPHelper::log(CRPLogType::Remote, "Uninstall", "Plugin successfully uninstalled.");
 }
 
 //Registered hook actions
@@ -126,19 +126,6 @@ function crp_setup_media_buttons(){
     if ( get_user_option('rich_editing') == 'true') {
         add_filter("mce_external_plugins", "crp_mce_external_plugins_filter");
         add_filter('mce_buttons', 'crp_mce_buttons_filter');
-    }
-}
-
-function crp_log($type, $action, $msg){
-    if($type == CRPLogType::Remote){
-        $log = "";
-        $log .= "message: " . $msg . "\n";
-        $log .= "url: " . site_url() . "\n";
-
-        $current_user = wp_get_current_user();
-        $headers = "From: <" . $current_user->user_email . ">" . "\r\n";
-
-        $status = wp_mail( CRP_LOG_SERVICE_DESTINATION, $action, $log, $headers );
     }
 }
 
