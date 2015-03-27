@@ -78,9 +78,8 @@ function crp_renderProject($project)
         });
         //plugin.update();
     </script>
-<?php
-}
-?>
+    
+<?php } ?>
 
 <!--Here Goes JS-->
 <script>
