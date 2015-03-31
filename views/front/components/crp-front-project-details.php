@@ -32,18 +32,18 @@ function crp_renderProject($project)
             <div id="details">
                 <?php if(isset($project->title) && $project->title !== '' ) : ?>
                     <h4><?php echo base64_decode($project->title) ?></h4>
-                <? endif; ?>
+                <?php endif; ?>
 
                 <?php if(isset($project->description) && $project->description !== '' ) : ?>
                     <p><?php echo base64_decode($project->description) ?></p>
-                <? endif; ?>
+                <?php endif; ?>
 
                 <?php if(isset($project->url) && $project->url !== '' ) : ?>
                     <div id="read_more_wrapper"><a href="<?php echo !empty($project->url) ? $project->url : '#'; ?>" id="read_more">READ MORE</a></div>
-                <? endif; ?>
+                <?php endif; ?>
 
             </div>
-        <? endif; ?>
+        <?php endif; ?>
 
         <div id="toolbar">
             <a class="closeBtn" href="#" title="" onclick="crp_closePopup(event,'<?php echo $project->id ?>')"></a>
@@ -79,7 +79,9 @@ function crp_renderProject($project)
         //plugin.update();
     </script>
     
-<?php } ?>
+<?php
+}
+?>
 
 <!--Here Goes JS-->
 <script>
