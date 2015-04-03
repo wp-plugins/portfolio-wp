@@ -9,13 +9,6 @@ Super easy responsive Wordpress portfolio plugin which aims to embed your portfo
 
 == Description ==
 
-= *** SPECIAL OFFER ( 50% OFF ) *** =
-
-Are you interested in Premium package? Hurry up!!! 
-Provide the coupon code (77FHH833AAFK87) while your'e paying and you'll get 50% Off till 2015/04/04.   
-
-[Here](http://portfoliopluginwp.com) you'll find the Premium version of the product.
-
 = WordPress Portfolio Plugin ( Career Portfolio ) =
 
 Career Portfolio is an amazing and powerful WordPress portfolio plugin designed to help you display your works in an elegant style. It provides the all necessary features you'll need to showcase your portfolio.
