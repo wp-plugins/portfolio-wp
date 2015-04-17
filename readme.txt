@@ -22,6 +22,7 @@ https://www.youtube.com/watch?v=t2IkF4dNypA
 * Full Screen Viewer
 * Intuitive Composer
 * Short-Code Support
+* Support
 
 = Major features in Gold package include: =
 
@@ -37,6 +38,7 @@ https://www.youtube.com/watch?v=t2IkF4dNypA
 * Scroll & Hover Effects
 * Design Customization
 * Custom CSS & JS
+* Excellant Support
 
 = Live Preview & Gold pakage =
 
