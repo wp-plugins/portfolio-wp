@@ -40,12 +40,13 @@ https://www.youtube.com/watch?v=t2IkF4dNypA
 * Custom CSS & JS
 * Excellant Support
 
-= Live Preview & Gold pakage =
+= Live Preview & Premium pakage =
 
 [Here](http://portfoliopluginwp.com) you can find detailed information regarding premium features and plans. There are also some predefined live previews and showcases to help you choose the best one that meets your needs. 
 
-[Download](http://portfoliopluginwp.com) "Career Portfolio" Premium package.
-[Live preview](http://portfoliopluginwp.com/portfolio-demos/) predefined demo portfolios.
+[Download](http://portfoliopluginwp.com) Premium package.
+
+[Live preview](http://portfoliopluginwp.com/portfolio-demos/) demo portfolios.
 
 
 = Detailed Description =
