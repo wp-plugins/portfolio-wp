@@ -1,6 +1,6 @@
 === Portfolio ===
 Contributors: miixee
-Tags: portfolio, portfolio plugin, portfolio plugin wordpress, wordpress portfolio plugin, wordpress portfolio, wp portfolio, wp portfolio plugin, filterable portfolio, sortable portfolio, responsive portfolio, simple portfolio, picture portfolio, project portfolio, portfolio shortcode, fullscreen portfolio, jquery portfolio, free portfolio, premium portfolio, portfolios, portfolio widget, showcase, portfolio showcase, project showcase, portfolio grid, isotope, masonry, widget, project, projects, responsive, category, categories, filter, filterable, portfolio gallery,
+Tags: portfolio, portfolio plugin, portfolio plugin wordpress, wordpress portfolio plugin, wordpress portfolio, wp portfolio, wp portfolio plugin, filterable portfolio, sortable portfolio, responsive portfolio, simple portfolio, picture portfolio, project portfolio, portfolio shortcode, fullscreen portfolio, jquery portfolio, free portfolio, premium portfolio, portfolios, portfolio widget, showcase, portfolio showcase, project showcase, portfolio grid, isotope, masonry, widget, project, projects, responsive, category, categories, filter, filterable, portfolio gallery, image portfolio, best portfolio plugin, best grid portfolio, best portfolio grid, responsive design 
 Requires at least: 4.0
 Tested up to: 4.1
 License: GPLv2 or later
@@ -42,7 +42,11 @@ https://www.youtube.com/watch?v=t2IkF4dNypA
 
 = Live Preview & Gold pakage =
 
-[Here](http://portfoliopluginwp.com) you can find a detailed information regarding premium features and plans. There are also some predefined live previews and showcases to help you choose the best one that meets your needs. 
+[Here](http://portfoliopluginwp.com) you can find detailed information regarding premium features and plans. There are also some predefined live previews and showcases to help you choose the best one that meets your needs. 
+
+[Download](http://portfoliopluginwp.com) "Career Portfolio" Premium package.
+[Live preview](http://portfoliopluginwp.com/portfolio-demos/) predefined demo portfolios.
+
 
 = Detailed Description =
 
