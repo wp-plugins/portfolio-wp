@@ -44,8 +44,8 @@ https://www.youtube.com/watch?v=t2IkF4dNypA
 
 [Here](http://portfoliopluginwp.com) you can find detailed information regarding premium features and plans. There are also some predefined live previews and showcases to help you choose the best one that meets your needs. 
 
-[Download](http://portfoliopluginwp.com) Premium package. 
-[Live preview](http://portfoliopluginwp.com/portfolio-demos/) demo portfolios.
+* [Download](http://portfoliopluginwp.com) Premium package. 
+* [Live preview](http://portfoliopluginwp.com/portfolio-demos/) demo portfolios.
 
 
 = Detailed Description =
