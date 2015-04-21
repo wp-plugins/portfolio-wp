@@ -1,8 +1,9 @@
 === Portfolio ===
 Contributors: miixee
-Tags: portfolio, portfolio plugin, portfolio plugin wordpress, wordpress portfolio plugin, wordpress portfolio, wp portfolio, wp portfolio plugin, filterable portfolio, sortable portfolio, responsive portfolio, simple portfolio, picture portfolio, project portfolio, portfolio shortcode, fullscreen portfolio, jquery portfolio, free portfolio, premium portfolio, portfolios, portfolio widget, showcase, portfolio showcase, project showcase, portfolio grid, isotope, masonry, widget, project, projects, responsive, category, categories, filter, filterable, portfolio gallery, image portfolio, best portfolio plugin, best grid portfolio, best portfolio grid, responsive design 
+Tags: portfolio, portfolio plugin, portfolio plugin wordpress, wordpress portfolio plugin, wordpress portfolio, wp portfolio, wp portfolio plugin, filterable portfolio, sortable portfolio, responsive portfolio, simple portfolio, picture portfolio, project portfolio, portfolio shortcode, fullscreen portfolio, jquery portfolio, free portfolio, premium portfolio, portfolios, portfolio widget, showcase, portfolio showcase, project showcase, portfolio grid, isotope, masonry, widget, project, projects, responsive, category, categories, filter, filterable, portfolio gallery, image portfolio, best portfolio plugin, best grid portfolio, best portfolio grid, responsive design, career portfolio, portfolio career, 
 Requires at least: 4.0
 Tested up to: 4.1
+Stable tag: trunk
 License: GPLv2 or later
 
 Super easy responsive Wordpress portfolio plugin which aims to embed your portfolio items or projects on your site.
@@ -73,7 +74,8 @@ If you have a question contact us at support@portfoliopluginwp.com.
 7. Admin Portfolio Options
 8. Admin Portfolio Options
 
-== Usage ==
+
+== Other Notes ==
 
 = How to upgrade/update the installed portfolio package? =
 
@@ -95,4 +97,3 @@ Detailed information regarding licenses you can find [here](http://portfolioplug
 == Changelog ==
 
 1. Brand new plugin pushed
-
