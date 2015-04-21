@@ -73,6 +73,25 @@ If you have a question contact us at support@portfoliopluginwp.com.
 7. Admin Portfolio Options
 8. Admin Portfolio Options
 
+== Usage ==
+
+= How to upgrade/update the installed portfolio package? =
+
+* First of all [download](http://portfoliopluginwp.com) a package you need
+* Uninstall currently installed version (if there is already installed one)
+* Install just downloaded premium portfolio package
+
+
+= Can I request a refund? =
+
+Sure, within 15 days you’re eligible to request a refund as stated in our [refund policy](http://portfoliopluginwp.com/refund-policy/).
+
+
+= Which license should I choose? =
+
+Detailed information regarding licenses you can find [here](http://portfoliopluginwp.com/licenses/).
+
+
 == Changelog ==
 
 1. Brand new plugin pushed
