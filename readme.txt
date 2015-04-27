@@ -2,7 +2,7 @@
 Contributors: miixee
 Tags: portfolio, portfolio plugin, portfolio plugin wordpress, wordpress portfolio plugin, wordpress portfolio, wp portfolio, wp portfolio plugin, filterable portfolio, sortable portfolio, responsive portfolio, simple portfolio, picture portfolio, project portfolio, portfolio shortcode, fullscreen portfolio, jquery portfolio, free portfolio, premium portfolio, portfolios, portfolio widget, showcase, portfolio showcase, project showcase, portfolio grid, isotope, masonry, widget, project, projects, responsive, category, categories, filter, filterable, portfolio gallery, image portfolio, best portfolio plugin, best grid portfolio, best portfolio grid, responsive design, career portfolio, portfolio career, 
 Requires at least: 4.0
-Tested up to: 4.1
+Tested up to: 4.2
 Stable tag: trunk
 License: GPLv2 or later
 
