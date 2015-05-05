@@ -14,6 +14,9 @@ Super easy responsive Wordpress portfolio plugin which aims to embed your portfo
 
 Career Portfolio is an amazing and powerful WordPress portfolio plugin designed to help you display your works in an elegant style. It provides the all necessary features you'll need to showcase your portfolio.
 
+* [Download](http://portfoliopluginwp.com) Premium package. 
+* [Live preview](http://portfoliopluginwp.com/portfolio-demos/) demo portfolios.
+
 https://www.youtube.com/watch?v=t2IkF4dNypA
 
 = Major features in Free package include: =
@@ -25,7 +28,7 @@ https://www.youtube.com/watch?v=t2IkF4dNypA
 * Short-Code Support
 * Support
 
-= Major features in Gold package include: =
+= Major features in Premium package include: =
 
 * Responsive Design
 * Multiple Fluid Layouts
@@ -40,13 +43,6 @@ https://www.youtube.com/watch?v=t2IkF4dNypA
 * Design Customization
 * Custom CSS & JS
 * Excellant Support
-
-= Live Preview & Premium pakage =
-
-[Here](http://portfoliopluginwp.com) you can find detailed information regarding premium features and plans. There are also some predefined live previews and showcases to help you choose the best one that meets your needs. 
-
-* [Download](http://portfoliopluginwp.com) Premium package. 
-* [Live preview](http://portfoliopluginwp.com/portfolio-demos/) demo portfolios.
 
 
 = Detailed Description =
