@@ -59,8 +59,8 @@ function crp_renderProject($project)
 
                                 <div class="content">
                                     <div>
-                                        <a href="<?php echo $picInfo->original ?>">
-                                            <img src="<?php echo $picInfo->medium ?>" title="<?php echo $project->title ?>" alt="" class="thumb" />
+                                        <a href="<?php echo $picInfo->original ?>" data-thumb="<?php echo $picInfo->medium ?>" class="crp-thumb-a">
+                                            <img src="" title="<?php echo $project->title ?>" alt="" class="thumb" />
                                         </a>
                                     </div>
                                 </div>

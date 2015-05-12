@@ -2,13 +2,14 @@
     //the class
     var crpFullScreenViewer = function(element, options){
         var target = "#" + $(element).attr("id");
+        var plugin = this;
 
         //set default images view mode
-        var $defaultViewMode="full"; //full, normal, original
+        var $defaultViewMode="normal"; //full, normal, original
         var $tsMargin=30; //first and last thumbnail margin (for better cursor interaction)
         var $scrollEasing=600; //scroll easing amount (0 for no easing)
         var $scrollEasingType="easeOutCirc"; //scroll easing type
-        var $thumbnailsContainerOpacity=0.8; //thumbnails area default opacity
+        var $thumbnailsContainerOpacity=0; //thumbnails area default opacity
         var $thumbnailsContainerMouseOutOpacity=0; //thumbnails area opacity on mouse out
         var $thumbnailsOpacity=0.6; //thumbnails default opacity
         var $nextPrevBtnsInitState="show"; //next/previous image buttons initial state ("hide" or "show")
@@ -70,7 +71,7 @@
 
             var idleTimer = null;
             var idleState = false;
-            var idleWait = 100;
+            var idleWait = 600;
 
             $thumbScroller.mousemove(function(e){
                 if($thumbScroller_container.width()>sliderWidth){
@@ -171,6 +172,16 @@
 
         function updateBackground(){
 
+        }
+
+        this.loadThumbnails = function(){
+            $thumbScroller_content.each(function () {
+                var $this=$(this);
+
+                var thumbSrc = $this.children().children(target + " .crp-thumb-a").attr("data-thumb");
+                var thumb = $this.children().children().children(target + " .thumb");
+                thumb.attr("src",thumbSrc);
+            });
         }
 
         function BackgroundLoad($this,imageWidth,imageHeight,imgSrc){
@@ -396,6 +407,8 @@
                     $($bgimg).fadeOut(0,0);
                     $($bgimg).fadeIn("slow");
                 }
+
+                plugin.loadThumbnails();
 
                 //Important FS bug fix
                 jQuery(window).trigger("resize");
