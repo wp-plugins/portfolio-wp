@@ -1,21 +1,26 @@
 === Portfolio ===
 Contributors: miixee
-Tags: portfolio, portfolio plugin, portfolio plugin wordpress, wordpress portfolio plugin, wordpress portfolio, wp portfolio, wp portfolio plugin, filterable portfolio, sortable portfolio, responsive portfolio, simple portfolio, picture portfolio, project portfolio, portfolio shortcode, fullscreen portfolio, jquery portfolio, free portfolio, premium portfolio, portfolios, portfolio widget, showcase, portfolio showcase, project showcase, portfolio grid, isotope, masonry, widget, project, projects, responsive, category, categories, filter, filterable, portfolio gallery, image portfolio, best portfolio plugin, best grid portfolio, best portfolio grid, responsive design, career portfolio, portfolio career, 
+Tags: portfolio, portfolio plugin, portfolio plugin wordpress, wordpress portfolio plugin, wordpress portfolio, wp portfolio, wp portfolio plugin, filterable portfolio, sortable portfolio, responsive portfolio, simple portfolio, picture portfolio, project portfolio, portfolio shortcode, fullscreen portfolio, jquery portfolio, free portfolio, premium portfolio, portfolios, portfolio widget, showcase, portfolio showcase, project showcase, portfolio grid, isotope, masonry, widget, project, projects, responsive, category, categories, filter, filterable, portfolio gallery, image portfolio, best portfolio plugin, best grid portfolio, best portfolio grid, responsive design, career portfolio, portfolio career, our team, our clients, our team plugin, our clients plugin, team, clients, team members, sponsors, our sponsors, team plugin, clients plugin
 Requires at least: 4.0
 Tested up to: 4.2
 Stable tag: trunk
 License: GPLv2 or later
 
-Super easy responsive Wordpress portfolio plugin which aims to embed your portfolio items or projects on your site.
+Super easy responsive Wordpress portfolio / grid plugin which aims to showcase your portfolio items, clients or team members on your site.
 
 == Description ==
 
 = WordPress Portfolio Plugin ( Career Portfolio ) =
 
-Career Portfolio is an amazing and powerful WordPress portfolio plugin designed to help you display your works in an elegant style. It provides the all necessary features you'll need to showcase your portfolio.
+Career Portfolio is an amazing and powerful WordPress portfolio / grid plugin designed to help you display your works, clients or team members in an elegant style. It provides the all necessary features you'll need to showcase your portfolio projects, clients or team members.
 
-* [Download](http://portfoliopluginwp.com) Premium package. 
-* [Live preview](http://portfoliopluginwp.com/portfolio-demos/) demo portfolios.
+* [DOWNLOAD](http://portfoliopluginwp.com) » PREMIUM PACKAGE
+
+* [Live preview](http://portfoliopluginwp.com/portfolio-masonry/) » Masonry layout style
+* [Live preview](http://portfoliopluginwp.com/portfolio-puzzle/) » Puzzle layout style
+* [Live preview](http://portfoliopluginwp.com/portfolio-gallery/) » Gallery layout style
+* [Live preview](http://portfoliopluginwp.com/portfolio-clients-layout/) » Our clients layout style
+* [Live preview](http://portfoliopluginwp.com/portfolio-team-layout/) » Our team layout style
 
 https://www.youtube.com/watch?v=t2IkF4dNypA
 
