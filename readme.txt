@@ -14,7 +14,11 @@ Super easy responsive Wordpress portfolio / grid plugin which aims to showcase y
 
 Career Portfolio is an amazing and powerful WordPress portfolio / grid plugin designed to help you display your works, clients or team members in an elegant style. It provides the all necessary features you'll need to showcase your portfolio projects, clients or team members.
 
-* [DOWNLOAD](http://portfoliopluginwp.com) » PREMIUM PACKAGE
+= Premium package: =
+
+* [Download](http://portfoliopluginwp.com) » Premium package
+
+= Demos and live previews: =
 
 * [Live preview](http://portfoliopluginwp.com/portfolio-masonry/) » Masonry layout style
 * [Live preview](http://portfoliopluginwp.com/portfolio-puzzle/) » Puzzle layout style
