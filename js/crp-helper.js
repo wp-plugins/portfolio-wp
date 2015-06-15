@@ -92,8 +92,12 @@ function crp_truncateIfNeeded(text, maxLength){
     return text;
 }
 
-function crp_loadHref(href){
-    window.location.href = href;
+function crp_loadHref(href, blank){
+    if(!blank){
+        window.location.href = href;
+    }else{
+        window.open(href, '_blank');
+    }
 }
 
 function crp_mgfCloseButtonMarkup(){

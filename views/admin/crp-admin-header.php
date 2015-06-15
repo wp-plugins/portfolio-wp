@@ -17,7 +17,7 @@ function featuresListToopltip(){
         <img class="crp-logo" src="<?php echo CRP_IMAGES_URL ."/general/logo.png" ?>">
     </a>
 
-    <a class='button-secondary upgrade-button tooltip' href='<?php echo CRP_PRO_URL ?>' title='<?php echo featuresListToopltip(); ?>'>* U P G R A D E *</a>
+    <a class='button-secondary upgrade-button' href='<?php echo CRP_PRO_URL ?>' title='<?php echo ""; /*featuresListToopltip();*/ ?>'>* BUY NOW *</a>
     <hr />
 </div>
 

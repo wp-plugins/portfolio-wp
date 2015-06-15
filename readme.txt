@@ -1,6 +1,6 @@
 === Portfolio ===
 Contributors: miixee
-Tags: portfolio, portfolio plugin, portfolio plugin wordpress, wordpress portfolio plugin, wordpress portfolio, wp portfolio, wp portfolio plugin, filterable portfolio, sortable portfolio, responsive portfolio, simple portfolio, picture portfolio, project portfolio, portfolio shortcode, fullscreen portfolio, jquery portfolio, free portfolio, premium portfolio, portfolios, portfolio widget, showcase, portfolio showcase, project showcase, portfolio grid, isotope, masonry, widget, project, projects, responsive, category, categories, filter, filterable, portfolio gallery, image portfolio, best portfolio plugin, best grid portfolio, best portfolio grid, responsive design, career portfolio, portfolio career, our team, our clients, our team plugin, our clients plugin, team, clients, team members, sponsors, our sponsors, team plugin, clients plugin, portfolio
+Tags: portfolio, portfolio plugin, portfolio plugin wordpress, wordpress portfolio plugin, wordpress portfolio, wp portfolio, wp portfolio plugin, filterable portfolio, sortable portfolio, responsive portfolio, simple portfolio, picture portfolio, project portfolio, portfolio shortcode, fullscreen portfolio, jquery portfolio, free portfolio, premium portfolio, portfolios, portfolio widget, showcase, portfolio showcase, project showcase, portfolio grid, isotope, masonry, widget, project, projects, responsive, category, categories, filter, filterable, portfolio gallery, image portfolio, best portfolio plugin, best grid portfolio, best portfolio grid, responsive design, career portfolio, portfolio career, our team, our clients, our team plugin, our clients plugin, team, clients, team members, sponsors, our sponsors, team plugin, clients plugin, portfolio, portfolio lightbox, lightbox, colorbox, portfolio colorbox, full screen portfolio, portfolio popup
 Requires at least: 4.0
 Tested up to: 4.2
 Stable tag: trunk
@@ -32,7 +32,7 @@ https://www.youtube.com/watch?v=t2IkF4dNypA
 
 * Responsive Design
 * 1 Layout Style
-* 1 Viewer Style
+* 1 Full-Screen Viewer Style
 * Intuitive Composer
 * Short-Code Support
 * Support
@@ -41,7 +41,8 @@ https://www.youtube.com/watch?v=t2IkF4dNypA
 
 * Responsive Design
 * 3 Layout Styles
-* 6 Viewer Styles
+* 2 Full-Screen Viewer Styles
+* 5 Popup Viewer Styles
 * Intuitive Composer
 * Short-Code Support
 * Category Filtration
