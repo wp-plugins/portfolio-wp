@@ -27,6 +27,7 @@ function featuresListToopltip(){
     jQuery('.tooltip').tooltipster({
         contentAsHTML: true,
         animation: 'fade', //fade, grow, swing, slide, fall
-        theme: 'tooltipster-shadow'
+        theme: 'tooltipster-shadow',
+        position: 'bottom'
     });
 </script>
