@@ -7,7 +7,7 @@
 * Author: Miixee
 * Author URI: http://portfoliopluginwp.com
 * License: GPLv2 or later
-* Version: 1.4.0
+* Version: 1.5.0
 */
 
 
@@ -49,12 +49,10 @@ function crp_activation_hook(){
     if($dbInitializer->needsConfiguration()){
         $dbInitializer->configure();
     }
-
-    CRPHelper::log(CRPLogType::Remote, "Activate", "Plugin successfully activated.");
 }
 
 function crp_uninstall_hook(){
-    CRPHelper::log(CRPLogType::Remote, "Uninstall", "Plugin successfully uninstalled.");
+
 }
 
 //Registered hook actions

@@ -31,10 +31,6 @@ define("CRP_PLUGIN_NAME","Career Portfolio");
 //**************** Configurable configurations *******************//
 define( 'CRP_PRO_URL' , 'http://portfoliopluginwp.com' );
 
-define( 'CRP_LOG_SERVICE_API_KEY' , 'CRPPORTFOLIO88fdFkkd8238Fdslk9843' );
-define( 'CRP_LOG_SERVICE_API_URL' , 'http://portfoliopluginwp.com/deliver/log/report.php' );
-
-
 //Define table names
 define( 'CRP_TABLE_PORTFOLIOS' , CRP_DB_PREFIX.'portfolios' );
 define( 'CRP_TABLE_PROJECTS' , CRP_DB_PREFIX.'projects' );

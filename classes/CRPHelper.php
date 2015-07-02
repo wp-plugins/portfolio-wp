@@ -131,28 +131,4 @@ static function hex2rgba($color) {
     return $output;
 }
 
-function log($type, $action, $log){
-    if($type == CRPLogType::Remote){
-        $current_user = wp_get_current_user();
-        $params = array();
-        $params["key"] = CRP_LOG_SERVICE_API_KEY;
-        $params["email"] = $current_user->user_email;
-        $params["url"] = site_url();
-        $params["action"] = $action;
-        $params["log"] = $log;
-
-        wp_remote_post( CRP_LOG_SERVICE_API_URL,
-            array(
-                'method' => 'POST',
-                'timeout' => 45,
-                'redirection' => 5,
-                'httpversion' => '1.0',
-                'blocking' => true,
-                'headers' => array(),
-                'body' => $params,
-                'cookies' => array()
-            )
-        );
-    }
-}
 } 
