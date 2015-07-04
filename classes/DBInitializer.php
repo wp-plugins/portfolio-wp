@@ -93,8 +93,8 @@ private function setupTables(){
     $wpdb->query( $sql );
 
     //Add cascade FK. Relation between ( project & portfolio )
-    $sql = "ALTER TABLE `{$this->tableProjects}` ADD PRIMARY KEY (`id`), ADD KEY `pid_index` (`pid`)";
-    $wpdb->query( $sql );
+    // $sql = "ALTER TABLE `{$this->tableProjects}` ADD PRIMARY KEY (`id`), ADD KEY `pid_index` (`pid`)";
+    // $wpdb->query( $sql );
 
     $sql = "ALTER TABLE `{$this->tableProjects}` ADD CONSTRAINT `crp_pid_fk` FOREIGN KEY (`pid`) REFERENCES `{$this->tablePortfolios}` (`id`) ON DELETE CASCADE ON UPDATE CASCADE";
     $wpdb->query( $sql );
