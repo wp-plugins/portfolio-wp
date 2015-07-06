@@ -20,9 +20,9 @@ Career Portfolio is an amazing and powerful WordPress portfolio / grid plugin de
 
 = Demos and live previews: =
 
-* [Live preview](http://portfoliopluginwp.com/portfolio-masonry/) » Masonry layout style
-* [Live preview](http://portfoliopluginwp.com/portfolio-puzzle/) » Puzzle layout style
-* [Live preview](http://portfoliopluginwp.com/portfolio-gallery/) » Gallery layout style
+* [Live preview](http://portfoliopluginwp.com/portfolio-masonry?layout=2) » Masonry layout style
+* [Live preview](http://portfoliopluginwp.com/portfolio-puzzle?layout=1) » Puzzle layout style
+* [Live preview](http://portfoliopluginwp.com/portfolio-gallery?layout=3) » Gallery layout style
 * [Live preview](http://portfoliopluginwp.com/portfolio-clients-layout/) » Our clients layout style
 * [Live preview](http://portfoliopluginwp.com/portfolio-team-layout/) » Our team layout style
 
