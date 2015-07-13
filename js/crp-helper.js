@@ -16,23 +16,23 @@ function crp_hideSpinner() {
 }
 
 function crp_openMediaUploader( callback, multipleSelection ) {
-	'use strict';
+    'use strict';
 
     multipleSelection = typeof multipleSelection !== 'undefined' ? multipleSelection : false;
     var uploader, imgData, json;
 
-	if ( undefined !== uploader ) {
-		uploader.open();
-		return;
-	}
+    if ( undefined !== uploader ) {
+        uploader.open();
+        return;
+    }
 
-	uploader = wp.media.frames.file_frame = wp.media({
-		frame:    'post',
-		state:    'insert',
-		multiple: multipleSelection
-	});
+    uploader = wp.media.frames.file_frame = wp.media({
+        frame:    'post',
+        state:    'insert',
+        multiple: multipleSelection
+    });
 
-	uploader.on( 'insert', function() {
+    uploader.on( 'insert', function() {
         var selections = uploader.state().get( 'selection').toJSON();
         var picInfos = [];
 
@@ -50,19 +50,19 @@ function crp_openMediaUploader( callback, multipleSelection ) {
             if(json.sizes.large){
                 picInfo.large = json.sizes.large.url;
             }else{
-                picInfo.large = json.sizes.full.url;
+                picInfo.large = picInfo.original;
             }
 
             if(json.sizes.medium){
                 picInfo.medium = json.sizes.medium.url;
             }else{
-                picInfo.medium = json.sizes.large;
+                picInfo.medium = picInfo.large;
             }
 
             if(json.sizes.thumbnail){
                 picInfo.small = json.sizes.thumbnail.url;
             }else{
-                picInfo.small = json.sizes.medium;
+                picInfo.small = picInfo.medium;
             }
 
             picInfos.push(picInfo);
@@ -73,9 +73,9 @@ function crp_openMediaUploader( callback, multipleSelection ) {
         }else{
             callback(picInfos.length > 0 ? picInfos[0] : null);
         }
-	});
+    });
 
-	uploader.open();
+    uploader.open();
 }
 
 function crp_isJSArray(obj){
