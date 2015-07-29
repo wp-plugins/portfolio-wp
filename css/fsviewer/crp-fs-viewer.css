@@ -29,7 +29,7 @@
 
 .malihu #details{position:fixed; z-index:3; left:10px; top:10px; padding:10px; margin-right: 70px; min-width: 300px; max-width: 400px; background:url(images/fs_img_g_bg.png); color:#FFF; font-size:16px;}
 .malihu h4 {text-transform:uppercase; margin: 0px; font-weight: 100; font-size: 16px; line-height: normal; max-height: 40px; overflow: hidden; }
-.malihu p {margin-top: 7px; font-weight: 100; font-size: 12px; line-height: normal; max-height: 100px; overflow: auto;}
+.malihu p {margin-top: 7px; font-weight: 100; font-size: 12px; line-height: normal; max-height: 100px; overflow: auto; -webkit-overflow-scrolling: touch;}
 
 .malihu #read_more_wrapper { margin-top: 13px; margin-bottom: 10px; text-align: left}
 .malihu #read_more_wrapper #read_more {
