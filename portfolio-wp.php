@@ -7,7 +7,7 @@
 * Author: Miixee
 * Author URI: http://portfoliopluginwp.com
 * License: GPLv2 or later
-* Version: 1.5.0
+* Version: 1.6.0
 */
 
 
